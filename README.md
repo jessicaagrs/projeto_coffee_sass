@@ -17,7 +17,7 @@ Esse projeto reúne alguns conhecimentos das linguagens mencionadas como:
 
 ## Como visualizar
 
-Acesse https://jessicaagrs.github.io/projeto_crudCadastroPacientes_javascript/
+Acesse https://jessicaagrs.github.io/projeto_coffee_sass/
 
 ## Tecnologias Utilizadas
 
