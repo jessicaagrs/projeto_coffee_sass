@@ -1,0 +1,452 @@
+/* Color Theme Swatches in Hex */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 35px;
+  margin-right: 35px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-top: 20px;
+}
+.header .header-logo {
+  display: flex;
+  align-items: center;
+}
+.header .header-logo p {
+  font-size: 28px;
+  font-weight: bold;
+}
+.header .header-links a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+}
+.header .header-links a:hover {
+  border-bottom: 1px solid #FF8848;
+  color: #FF8848;
+}
+.header .header-iconBar img {
+  cursor: pointer;
+  width: 50px;
+}
+
+.main-section-one {
+  position: relative;
+  display: grid;
+  justify-content: space-around;
+  margin-top: 30px;
+  grid-template-areas: "title photo1" "foto2 message";
+}
+.main-section-one .main-section-title {
+  grid-area: title;
+}
+.main-section-one .main-section-title h1 {
+  font-size: 56px;
+  font-family: "Playfair Display", serif;
+}
+.main-section-one .main-section-image1 {
+  grid-area: photo1;
+}
+.main-section-one .main-section-image1 img {
+  width: 500px;
+}
+.main-section-one .main-section-image2 {
+  grid-area: foto2;
+}
+.main-section-one .main-section-image2 img {
+  width: 500px;
+  position: absolute;
+  bottom: 60px;
+}
+.main-section-one .main-section-message {
+  grid-area: message;
+}
+.main-section-one .main-section-message p {
+  font-size: 18px;
+}
+
+.main-section-two {
+  background-color: #7F4424;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 40px;
+}
+.main-section-two .main-section-subtitle p {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+.main-section-two .main-section-triplet {
+  display: flex;
+}
+.main-section-two .main-section-triplet div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-section-two .main-section-triplet div h4 {
+  font-weight: bold;
+}
+
+.main-section-three {
+  display: flex;
+  margin-top: 40px;
+}
+.main-section-three .main-section-bloco1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.main-section-three .main-section-bloco1 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+}
+.main-section-three .main-section-bloco1 button {
+  width: 9rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 0.5px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.main-section-three .main-section-bloco1 button:hover {
+  background-color: #CC6D3A;
+  border: none;
+}
+.main-section-three .main-section-bloco1 img {
+  width: 300px;
+}
+.main-section-three .main-section-bloco2 img {
+  height: 800px;
+}
+
+.main-section-four {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFBA95;
+  margin-top: 30px;
+}
+.main-section-four .main-section-titleProducts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-section-four .main-section-titleProducts p {
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+}
+.main-section-four .main-section-titleProducts a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
+.main-section-four .main-section-titleProducts a:hover {
+  border-bottom: 1px solid black;
+}
+.main-section-four .main-section-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.main-section-four .main-section-cards .item1, .main-section-four .main-section-cards .item4, .main-section-four .main-section-cards .item3, .main-section-four .main-section-cards .item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-section-four .main-section-cards .item1 img, .main-section-four .main-section-cards .item4 img, .main-section-four .main-section-cards .item3 img, .main-section-four .main-section-cards .item2 img {
+  width: 300px;
+}
+.main-section-four .main-section-cards .item1 p, .main-section-four .main-section-cards .item4 p, .main-section-four .main-section-cards .item3 p, .main-section-four .main-section-cards .item2 p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.main-section-four .main-section-cards .item1 button, .main-section-four .main-section-cards .item4 button, .main-section-four .main-section-cards .item3 button, .main-section-four .main-section-cards .item2 button {
+  width: 9rem;
+  height: 2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main-section-five {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.main-section-five .main-section-text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.main-section-five .main-section-tri {
+  display: flex;
+  gap: 20px;
+}
+.main-section-five .main-section-tri .tri-image img {
+  width: 450px;
+  height: 700px;
+}
+.main-section-five .main-section-tri .tri-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.main-section-five .main-section-tri .tri-text button {
+  width: 8rem;
+  height: 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.main-section-five .main-section-tri .tri-text button:hover {
+  background-color: #CC6D3A;
+  border: none;
+}
+.main-section-five .main-section-tri .tri-album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.main-section-five .main-section-tri .tri-album img {
+  width: 300px;
+  height: 200px;
+}
+
+.main-section-six {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.main-section-six .main-section-testimony {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-section-six .main-section-testimony h3 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+.main-section-six .main-section-testimony p {
+  margin-bottom: 40px;
+}
+.main-section-six .main-section-testimony button {
+  width: 10rem;
+  height: 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.main-section-six .main-section-testimony button:hover {
+  background-color: #CC6D3A;
+  border: none;
+}
+.main-section-six div img {
+  border-radius: 50%;
+  width: 600px;
+}
+
+.footer {
+  background-color: #7F5D4A;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  color: white;
+  margin-top: 30px;
+}
+.footer .footer-shop, .footer .footer-help, .footer .footer-about {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-shop p, .footer .footer-help p, .footer .footer-about p {
+  font-size: 22px;
+}
+.footer .footer-shop a, .footer .footer-help a, .footer .footer-about a {
+  text-decoration: none;
+  color: white;
+}
+.footer .footer-shop a:hover, .footer .footer-help a:hover, .footer .footer-about a:hover {
+  border-bottom: 1px solid white;
+}
+.footer .footer-emails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer-emails div {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+.footer .footer-emails div input {
+  padding: 10px;
+  max-width: 15rem;
+  max-height: 2rem;
+}
+.footer .footer-emails div button {
+  padding: 10px;
+  max-width: 12rem;
+  max-height: 2rem;
+  border: none;
+  cursor: pointer;
+  background-color: #FFBA95;
+  color: black;
+}
+.footer .footer-emails div button:hover {
+  background-color: #7F4424;
+}
+
+@media (max-width: 1223px) {
+  .main-section-image2 img {
+    display: none;
+  }
+}
+@media (max-width: 1182px) {
+  .main-section-cards {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1092px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer .footer-shop, .footer .footer-about, .footer .footer-help {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1098px) {
+  .main-section-triplet {
+    flex-wrap: wrap;
+  }
+  .main-section-triplet div {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .main-section-triplet div h4 {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1075px) {
+  .main-section-tri {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 987px) {
+  .main-section-three {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .main-section-three .main-section-bloco1 img {
+    display: none;
+  }
+  .main-section-three .main-section-bloco2 img {
+    width: 400px;
+    height: 500px;
+  }
+  .main-section-six div img {
+    width: 300px;
+  }
+}
+@media (max-width: 908px) {
+  .main-section-image1 img {
+    width: 300px;
+    height: 500px;
+  }
+}
+@media (max-width: 874px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 611px) {
+  .main-section-image1 img {
+    width: 300px;
+    height: 700px;
+  }
+  .main-section-titleProducts {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media (max-width: 572px) {
+  .footer-emails {
+    align-items: center;
+  }
+  .footer-emails div {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 523px) {
+  .main-section-six {
+    flex-direction: column;
+  }
+}
+@media (max-width: 518px) {
+  .main-section-image1 img {
+    display: none;
+  }
+  .tri-image img {
+    display: none;
+  }
+}
+@media (max-width: 406px) {
+  .main-section-title h1 {
+    font-size: 16px;
+  }
+  .main-section-triplet div img {
+    width: 200px;
+    height: 200px;
+  }
+  .main-section-bloco2 img {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .main-section-titleProducts p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
